@@ -1,0 +1,13 @@
+{
+  "name": "mediaExpertCypress",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  },
+  "scripts": {
+    "open": "npx cypress open",
+    "all": "npx cypress run",
+    "firefox": "npm run spec -- --browser firefox",
+    "spec": "npx cypress run --spec 'cypress/e2e/menu/searchEngine.cy.js' --browser firefox --headed"
+  }
+}

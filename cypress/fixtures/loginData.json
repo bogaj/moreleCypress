@@ -1,0 +1,12 @@
+{
+  "validUser": {
+    "username": "Otua Tamotua",
+    "password": "TestyME123$",
+    "email": "otua.tamotua@op.pl"
+  },
+  "invalidUser": {
+    "username": "invalidUser",
+    "password": "wrongPassword",
+    "email": "wrong@mail.pl"
+  }
+}
